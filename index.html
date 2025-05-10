@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H59QT3TFXV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-H59QT3TFXV');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Desarrollo sitios web profesionales para restaurantes y pequeños negocios con las secciones esenciales: Inicio, Menú, Nosotros, Galería y Contacto.">
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/Favicon.png" type="image/x-icon">
+
+    <title>HC Desarrollo Web - Sitios web para tu negocio</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="title__container">
+            <a href="/" class="title-logo">HC Desarrollo Web</a>
+            <i class='bx bx-menu toggle__menu' id="toggle-menu"></i>
+        </div>
+        <div class="menu">
+            <ul id="list-menu" class="menu__action">
+                <li class="list">
+                    <a href="#home" class="link active-link">Inicio</a>
+                    <a href="#services" class="link">Servicios</a>
+                    <a href="#portfolio" class="link">Trabajos</a>
+                    <a href="#process" class="link">Proceso</a>
+                    <a href="#contact" class="link">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="main">
+        <a href="#home" class="go__top" id="go-top">
+            <i class='bx bx-up-arrow-alt icon'></i>
+        </a>
+
+        <!-- Sección Hero -->
+        <section class="home" id="home">
+            <div class="home__main_text">
+                <h1 id="presentacion">Sitios Web Profesionales</h1>
+                <h3 id="presentacion-sub">Para restaurantes, cafeterías y pequeños negocios</h3>
+                <a href="#contact" class="btn" id="presentacion-btn">Solicitar Presupuesto</a>
+            </div>
+            <div class="hero-photo" id="presentacion">
+                <img src="assets/images/foto-perfil.png" alt="Javier Herrera - Desarrollador Web">
+            </div>
+        </section>
+
+        <!-- Sección Servicios -->
+        <section class="section services" id="services">
+            <h1 class="title">¿Qué incluyen mis sitios web?</h1>
+            <div class="services-container" data-aos="fade-up" data-aos-duration="2000">
+                <div class="service-card">
+                    <i class='bx bx-home service-icon'></i>
+                    <h3>Página Principal</h3>
+                    <p>Diseño atractivo que muestra lo mejor de tu negocio.</p>
+                </div>
+                <div class="service-card">
+                    <i class='bx bx-book-open service-icon'></i>
+                    <h3>Sección Nosotros</h3>
+                    <p>Cuenta la historia de tu negocio.</p>
+                </div>
+                <div class="service-card">
+                    <i class='bx bx-image service-icon'></i>
+                    <h3>Galería</h3>
+                    <p>Presenta imágenes de productos, servicios, instalaciones, etc.</p>
+                </div>
+                <div class="service-card">
+                    <i class='bx bx-phone service-icon'></i>
+                    <h3>Contacto/Reservas</h3>
+                    <p>Formulario de contacto y opción de reservaciones.</p>
+                </div>
+                <div class="service-card">
+                    <i class='bx bx-mobile service-icon'></i>
+                    <h3>Diseño Responsivo</h3>
+                    <p>Perfecto en celulares, tablets y computadoras.</p>
+                </div>
+                <div class="service-card">
+                    <i class='bx bx-pin service-icon'></i>
+                    <h3>Mapa y ubicación</h3>
+                    <p>Dar a conocer la ubicación de tu negocio.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Portafolio -->
+        <section class="section projects" id="portfolio">
+            <h1 class="title">Mis Trabajos Recientes</h1>
+            <div class="portafolio-container" data-aos="fade-up" data-aos-duration="2000">
+                <div class="card__project">
+                    <img src="assets/images/coffee-web-shop.png" alt="Sitio web para restaurante"
+                        class="project__coverimage">
+                    <div class="portafolio__details">
+                        <!-- <p>Sitio web para Cafetería</p> -->
+                        <p class="project__name text-color">Sitio web para Cafetería</p>
+                        <p>Web con catálogo de productos y contacto por whatsapp.</p>
+                        <div class="projects__buttons">
+                            <a href="https://coffe-show-web-prototype.vercel.app/" target="_blank" class="btn-portafolio btn">Ver
+                                Sitio</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card__project">
+                    <img src="assets/images/restaurant-web-prototype-v2.png" alt="Sitio web para cafetería"
+                        class="project__coverimage">
+                    <div class="portafolio__details">
+                        <!-- <p>Sitio web para restaurante</p> -->
+                        <p class="project__name text-color">Sitio web para Restaurante</p>
+                        <p>Web con catalogo de galería, menú y contacto por correo.</p>
+                        <div class="projects__buttons">
+                            <a href="https://restaurant-web-prototype-v2.vercel.app/" target="_blank" class="btn-portafolio btn">Ver
+                                Sitio</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card__project">
+                    <img src="assets/images/restaurant-web-prototype.png" alt="Sitio web para negocio local"
+                        class="project__coverimage">
+                    <div class="portafolio__details">
+                        <!-- <p>Sitio web para negocio local</p> -->
+                        <p class="project__name text-color">Sitio web para restaurante</p>
+                        <p>Página con mapa de ubicación y formulario de contacto/reservas por correo.</p>
+                        <div class="projects__buttons">
+                            <a href="https://restaurant-web-prototype.vercel.app/" target="_blank" class="btn-portafolio btn">Ver
+                                Sitio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Proceso -->
+        <section class="section process" id="process">
+            <h1 class="title">Mi Proceso de Trabajo</h1>
+            <div class="process-steps">
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <h3>Consulta</h3>
+                    <p>Analizamos tus necesidades</p>
+                </div>
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <h3>Propuesta</h3>
+                    <p>Te presento plan y presupuesto</p>
+                </div>
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <h3>Desarrollo</h3>
+                    <p>Creo tu sitio con revisiones</p>
+                </div>
+                <div class="step">
+                    <span class="step-number">4</span>
+                    <h3>Lanzamiento</h3>
+                    <p>Publicamos y doy soporte</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section class="section contact" id="contact">
+            <h1 class="title">¿Listo para comenzar?</h1>
+            <div class="contact-container">
+                <p>Contáctame para una consulta gratuita</p>
+                <div class="contact-methods">
+                    <a href="mailto:javier.ivancouoh@gmail.com" class="btn contact-btn">
+                        <i class='bx bx-envelope'></i> Email
+                    </a>
+                    <a href="tel:9993291640" class="btn contact-btn">
+                        <i class='bx bx-phone'></i> Llamar
+                    </a>
+                    <a href="https://wa.me/529993291640" class="btn contact-btn">
+                        <i class='bx bxl-whatsapp'></i> WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="section">
+            <h1 class="title" style="color: #fff;">Javier Herrera</h1>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/javier-iv%C3%A1n-herrera-couoh-1b32251b2/" target="_blank"
+                    rel="noopener noreferrer">
+                    <i class='bx bxl-linkedin icon'></i>
+                </a>
+                <a href="https://github.com/IvanCouoh" target="_blank" rel="noopener noreferrer">
+                    <i class='bx bxl-github icon'></i>
+                </a>
+            </div>
+            <div class="copyright">
+                Desarrollado por Javier Herrera 2025 &#169;
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="scripts/gsap.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
